@@ -1,44 +1,19 @@
 import React from "react";
 import "./style.css";
 import {
-  FaGithub,
-  FaTwitter,
-  FaFacebookF,
-  FaLinkedin,
   FaYoutube,
-  FaTwitch,
 } from "react-icons/fa";
+import { SiFiverr } from "react-icons/si";
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-        {socialprofils.twitter && (
+        {socialprofils.fiverr && (
           <li>
-            <a href={socialprofils.twitter}>
-              <FaTwitter />
-            </a>
-          </li>
-        )}
-        {socialprofils.github && (
-          <li>
-            <a href={socialprofils.github}>
-              <FaGithub />
-            </a>
-          </li>
-        )}
-        {socialprofils.facebook && (
-          <li>
-            <a href={socialprofils.facebook}>
-              <FaFacebookF />
-            </a>
-          </li>
-        )}
-        {socialprofils.linkedin && (
-          <li>
-            <a href={socialprofils.linkedin}>
-              <FaLinkedin />
+            <a href={socialprofils.fiverr}>
+              <SiFiverr />
             </a>
           </li>
         )}
@@ -49,10 +24,10 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialprofils.twitch && (
+        {socialprofils.behance && (
           <li>
-            <a href={socialprofils.twitch}>
-              <FaTwitch />
+            <a href={socialprofils.behance}>
+              <h6 style={{ fontSize: "0.5rem" }}>Behance</h6>
             </a>
           </li>
         )}

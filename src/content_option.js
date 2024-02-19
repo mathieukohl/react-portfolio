@@ -1,74 +1,98 @@
-const logotext = "JOHN";
+import khalidImage from './assets/khalid_1.jpg';
+
+const logotext = "MAX";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Max Smith",
+    description: "I’m Max Smith 2D / 3D Artist _ Video Editor,currently working in the EAU",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Max Smith",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love 3D Design/Modeling",
+        second: "I do 2D Animation",
+        third: "I do Post-production CGI / VFX",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a Professional Video Editor and 2D / 3D Artist with over 16 years of experience. I'm proficient in High-quality visualization, attention to detail, versatility, efficient workflow and collaborative approach.",
+    your_img_url: khalidImage,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about my self",
+    aboutme: "I am a Professional Video Editor and 2D / 3D Artist with over 16 years of experience. I'm proficient in High-quality visualization, attention to detail, versatility, efficient workflow and collaborative approach.",
+    aboutme2: "My goal is to create photo-realistic visuals that captivate and engage viewers. I have strong skills in each step of creating project from concept to life with professionalism and creativity.",
+    aboutme3: "I have always made every effort to ensure that the client satisfaction with the execution of works within possible time.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+// const worktimeline = [{
+//         jobtitle: "Designer of week",
+//         where: "YAdfi",
+//         date: "2020",
+//     },
+//     {
+//         jobtitle: "Designer of week",
+//         where: "Jamalya",
+//         date: "2019",
+//     },
+//     {
+//         jobtitle: "Designer of week",
+//         where: "ALquds",
+//         date: "2019",
+//     },
+// ];
 
 const skills = [{
-        name: "Python",
+        name: "3D Design (Architecture / Product)",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "3D Modeling",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "3D Rendering",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "3D Animation",
+        value: 90,
     },
     {
-        name: "Jquery",
+        name: "Motion Graphics",
+        value: 80,
+    },
+    {
+        name: "2D Animation",
+        value: 85,
+    },
+    {
+        name: "VR 360 Video",
+        value: 90,
+    },
+    {
+        name: "Post-production CGI / VFX",
+        value: 85,
+    },
+    {
+        name: "Compositing / Rotoscope / Tracking",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Professional logo",
+        description: "The ultimate solution for those who demand exceptional graphic design services with all the extras.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "3D product animations",
+        description: "The premium 3D product animation for a captivating and engaging presentation.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "2D & 3D logo animation",
+        description: "I will transform your static logo into a dynamic and memorable visual asset.",
+    },
+    {
+        title: "Crafting stunning graphic designs",
+        description: "I offer professional graphic design services to help you create stunning visuals for your brand or project",
     },
 ];
 
@@ -136,9 +160,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "khalidsadiqofficial@gmail.com",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,16 +169,15 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    fiverr: "https://fr.fiverr.com/maxsmithartist",
+    youtube: "https://www.youtube.com/@khalidsadiq5401",
+    behance: "https://www.behance.net/khalid_sadiq",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    // worktimeline,
     skills,
     services,
     introdata,
