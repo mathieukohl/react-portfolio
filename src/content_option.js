@@ -1,4 +1,4 @@
-import khalidImage from './assets/khalid_1.jpg';
+import khalidImage from './assets/Cover.jpg';
 
 const logotext = "MAX";
 const meta = {
